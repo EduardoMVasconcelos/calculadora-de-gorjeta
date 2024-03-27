@@ -13,7 +13,7 @@ pessoasInput.addEventListener("input", receberQuantidadePessoas)
 
 function receberQuantidadePessoas(evento) {
 
-    const paragrafoErro = document.querySelector(".pessoa #erro")
+    const paragrafoErro = document.querySelector(".pessoas #erro")
     const divErro = document.querySelector(".pessoas .input-box")
 
     if(evento.target.value === "0") {
